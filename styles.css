@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+  font-family: 'times new roman', serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333;
+}
+
+/* Headings */
+h1 {
+  font-family: 'helvetica', sans-serif;
+  font-size: 60px;
+  color: #08c1c8;
+  margin-bottom: 5px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'helvetica', sans-serif;
+  font-size: 16px;
+  color: #444;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'helvetica', sans-serif;
+  font-size: 16px;
+  color: #444;
+  font-weight: normal;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 700px;
+  margin-top: 0px;
+}
+
+/* Lists */
+ul {
+  font-size: 16px;
+  list-style-type: none;
+  padding-left: 0;
+   margin-top: 0px;
+}
+
+a {
+  color: #08738a;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fa556d;
+  /*text-decoration: underline;*/
+}
+
+/* Image container for manual positioning */
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+}
+
+/* Image that can be positioned manually */
+.artwork-image {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Image hover transparency */
+.artwork-image:hover {
+  opacity: 0.2;
+  transition: opacity 0.3s ease;
+}
+
+/* Video centering */
+.video-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* Selected writings settings */
+.writings a {
+  color: #08738a;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.writings p {
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+}
+
+.writings a:hover {
+  color: #fa556d;
+}
+
+.home-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #08738a;
+  padding: 6px 12px;
+  border-radius: 4px;
+  z-index: 1000;
+}
+.home-button:hover {
+  color: #fa556d;
+}
